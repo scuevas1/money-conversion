@@ -1,0 +1,99 @@
+h1 {
+text-align:center;
+}
+
+h2 {
+text-align:center;
+}
+
+h3 {
+text-align:center;
+}
+
+h4 {
+text-align: center;
+}
+
+body {
+color:#000000;
+background-image: url('background.jpg');
+}
+
+hr {
+border: 1px solid grey;
+width:75%;
+}
+
+img {
+width:25%;
+height:25%;
+}
+
+blockquote {
+text-align: center;
+font-size: 17px;
+}
+
+footer {
+text-align: center;
+}
+
+p.image{
+text-align:right;
+font-size: 12px;
+width: 10%;
+height: 10%;
+padding-left: 1050px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 300%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+div.gallery {
+  margin: 100px;
+  border: 1px solid #ccc;
+  width: 180px;
+  float: left;
+}
+
+div.gallery img {
+  width: 300%;
+  height: auto;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

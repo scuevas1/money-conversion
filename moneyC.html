@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+	<head>
+		<title> ~ Money Conversion ~ </title>
+		<link rel="stylesheet" href="moneyC.css">
+	</head>
+
+	<body>
+
+	<header>
+		<br>
+		<hr>
+		<h1> = W W M C = </h1>
+		<h3>World Wide Money Conversions</h3>
+	
+			<blockquote>
+			<script>
+			var userInput=prompt('Enter Name','Your Name Here');
+				if(userInput!=''&& userInput!=null) {
+					document.write("Hello," + "&nbsp;" + userInput +"<br>"+"Welcome to the site!"+"<br>"); }
+			</script>
+			</blockquote>
+	</header>
+<hr>
+
+	<article>
+		<h2>Instructions</h2>
+
+			<h4>
+				1. Enter the American Dollar amount that you want to convert
+<br>
+				2. Then hover over each picture to see their amount
+<br>
+				3. To add another value hold ctrl + R
+
+			</h4>
+	</article>
+<br>
+<hr>
+
+	<section>
+<script>
+var dollarAmount=prompt("Enter Dollar Amount Here; Exclude Dollar Sign", "0.00");
+
+var eurosAmount=0.82*dollarAmount
+var roundEuros=eurosAmount.toFixed(2);
+
+var canAmount=1.28*dollarAmount
+var roundCan=canAmount.toFixed(2);
+
+var cubAmount=23.97*dollarAmount
+var roundCub=cubAmount.toFixed(2);
+
+var mexAmount=20.59*dollarAmount
+var roundMex=mexAmount.toFixed(2);
+
+var ausAmount=1.31*dollarAmount
+var roundAus=ausAmount.toFixed(2);
+
+var argAmount=87.07*dollarAmount
+var roundArg=argAmount.toFixed(2);
+</script>
+
+<script>document.write("<h2>" + "You Entered: $" + dollarAmount + "</h2>");</script>
+
+<div class="gallery">
+<div class="container">
+  <img src="Cuba.jpg" alt="Cuban Flag" class="image">
+  <div class="overlay">
+    <div class="text"><script>document.write("Cuban Peso =" + "<br>" + "&#8369;" + roundCub);</script></div>
+  </div>
+</div>
+</div>
+
+<div class="gallery">
+<div class="container">
+  <img src="Mexico.jpg" alt="Mexican Flag" class="image">
+  <div class="overlay">
+    <div class="text"><script>document.write("Mexican Peso =" + "<br>" + "&#8369;" + roundMex);</script></div>
+  </div>
+</div>
+</div>
+
+<div class="gallery">
+<div class="container">
+  <img src="Australia.jpg" alt="Australian Flag" class="image">
+  <div class="overlay">
+    <div class="text"><script>document.write("Australian Dollar =" + "<br>" + "$" + roundAus);</script></div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<div class="gallery">
+<div class="container">
+  <img src="EuropeanFlag2.jpg" alt="European Flag" class="image">
+  <div class="overlay">
+    <div class="text"><script>document.write("Euros =" + "<br>" + "&#8364;" + roundEuros);</script></div>
+  </div>
+</div>
+</div>
+
+<div class="gallery">
+<div class="container">
+  <img src="CanadianFlag.jpg" alt="Canadian Flag" class="image">
+  <div class="overlay">
+    <div class="text"><script>document.write("Canadian Dollar =" + "<br>" + "$" + roundCan);</script></div>
+  </div>
+</div>
+</div>
+
+<div class="gallery">
+<div class="container">
+  <img src="Argentina.jpg" alt="Argentine Flag" class="image">
+  <div class="overlay">
+    <div class="text"><script>document.write("Argentine Peso =" + "<br>" + "&#8369;" + roundArg);</script></div>
+  </div>
+</div>
+</div>
+</section>
+
+<br>
+<hr>
+<footer>
+&#169; suey & avery
+</footer>
+</body>
+</html>
