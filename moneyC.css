@@ -16,7 +16,7 @@ text-align: center;
 
 body {
 color:#000000;
-background-image: url('background.jpg');
+background-image: url('images/rustic_paper.jpg');
 }
 
 hr {
@@ -53,8 +53,9 @@ padding-left: 1050px;
 
 .image {
   display: block;
-  width: 50%;
-  height: auto;
+  width: 30px;
+  height: 50px;
+  float:center;
 }
 
 .overlay {
